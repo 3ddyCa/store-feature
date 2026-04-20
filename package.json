@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:app-shop": "node dist/app-shop/server/server.mjs"
+    "serve:ssr:app-shop": "node dist/app-shop/server/server.mjs",
+    "comp": "ng generate component"
   },
   "private": true,
   "packageManager": "npm@9.2.0",
